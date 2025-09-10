@@ -1,0 +1,23 @@
+name: Joyedwarps
+version: '0.1'
+main: xyz.joyedforlife.joyedwarps.Joyedwarps
+api-version: '1.21'
+prefix: JoyedVerify
+authors: [ Joyedlion ]
+commands:
+  warp:
+    description: Warp to a location
+    usage: /warp <name>
+  warps:
+    description: List all warps
+    usage: /warps
+  warpsadmin:
+    description: Admin warps command
+    usage: /warps admin <type> <warpName> <otherStuff>
+permissions:
+  joyedwarps.warp:
+    default: true
+  joyedwarps.list:
+    default true
+  joyedwarps.admin:
+    default: op

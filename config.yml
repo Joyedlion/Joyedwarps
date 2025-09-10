@@ -1,0 +1,16 @@
+# Prefix for messages
+prefix: "&6[JoyedWarps]&r "
+
+# Messages
+messages:
+  warp_created: "&aWarp &e{warp}&a created!"
+  warp_deleted: "&cWarp &e{warp}&c deleted!"
+  warp_teleported: "&aTeleported to &e{warp}&a!"
+  warp_not_found: "&cWarp &e{warp}&c does not exist!"
+  warp_locked: "&cThis warp is locked! Only admins can use it."
+  no_permission: "&cYou do not have permission to do that!"
+  warps_list: "&eAvailable warps: &a{warps}"
+  warp_permission_set: "&aPermission &e{perm}&a set for warp &e{warp}&a!"
+  warp_locked_set: "&cWarp &e{warp}&c is now locked!"
+  warp_unlocked_set: "&aWarp &e{warp}&a is now unlocked!"
+  warp_renamed: "&aWarp &e{old}&a renamed to &e{new}&a!"
